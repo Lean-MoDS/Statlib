@@ -35,6 +35,14 @@
     h1.wordmark{margin:18px 0 10px;color:var(--ink);font-family:"STIX Two Text",Georgia,"Times New Roman",serif;font-size:clamp(58px,11vw,112px);font-weight:600;letter-spacing:.12em;line-height:1;white-space:nowrap}
     h1.wordmark .lib{color:var(--green)}
     .dek{max-width:800px;margin:18px 0 0;font-size:21px;line-height:1.55;color:#39423d}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 0}
+    .github-cta{display:inline-flex;align-items:center;gap:18px;min-height:50px;max-width:100%;padding:9px 13px 9px 15px;border:1px solid var(--green-2);background:var(--green);color:#fff;text-decoration:none;box-shadow:3px 3px 0 rgba(14,68,53,.22);transition:background .16s ease,box-shadow .16s ease,transform .16s ease}
+    .github-cta:hover,.github-cta:focus-visible{background:var(--green-2);color:#fff;text-decoration:none;transform:translateY(-1px);box-shadow:4px 4px 0 rgba(14,68,53,.26)}
+    .github-cta:focus-visible{outline:3px solid rgba(23,91,71,.3);outline-offset:3px}
+    .github-cta-copy{display:grid;gap:2px}
+    .github-cta-kicker{font:700 9px/1.2 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;opacity:.76}
+    .github-cta-repo{font:700 14px/1.25 "IBM Plex Mono","SFMono-Regular",Consolas,monospace;letter-spacing:.01em}
+    .github-cta-arrow{font:400 22px/1 Arial,sans-serif;transform:translateY(-1px)}
     .abstract{max-width:880px;margin:25px 0 0}
     .abstract strong{font-variant:small-caps;letter-spacing:.05em;color:var(--green-2)}
     .stats{display:grid;grid-template-columns:repeat(6,1fr);margin:30px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -102,8 +110,8 @@
       .main{margin-left:0;padding:34px 24px 55px}
       h1.wordmark{font-size:clamp(52px,10vw,84px)}.stats{grid-template-columns:repeat(3,1fr)}.stat:nth-child(3){border-right:0}.stat:nth-child(n+4){border-top:1px solid var(--line)}
     }
-    @media(max-width:620px){body{font-size:16px}.main{padding:28px 18px 45px}h1.wordmark{font-size:clamp(38px,12vw,58px);letter-spacing:.1em}.dek{font-size:18px}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(3){border-right:1px solid var(--line)}.stat:nth-child(even){border-right:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}.chapter{grid-template-columns:1fr;gap:5px}.install{grid-template-columns:1fr}.organizer-card{flex-basis:132px}.portrait-frame{width:96px;height:96px}nav{columns:1}.formula{padding:12px 4px}h2{font-size:27px}}
-    @media print{.sidebar,.copy{display:none}.main{margin:0;padding:0}.content{max-width:none}body{background:#fff;font-size:11pt}.theorem,.install-card{break-inside:avoid}.formula{overflow:visible;font-size:10pt}}
+    @media(max-width:620px){body{font-size:16px}.main{padding:28px 18px 45px}h1.wordmark{font-size:clamp(38px,12vw,58px);letter-spacing:.1em}.dek{font-size:18px}.github-cta{width:100%;justify-content:space-between}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(3){border-right:1px solid var(--line)}.stat:nth-child(even){border-right:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}.chapter{grid-template-columns:1fr;gap:5px}.install{grid-template-columns:1fr}.organizer-card{flex-basis:132px}.portrait-frame{width:96px;height:96px}nav{columns:1}.formula{padding:12px 4px}h2{font-size:27px}}
+    @media print{.sidebar,.copy,.hero-actions{display:none}.main{margin:0;padding:0}.content{max-width:none}body{background:#fff;font-size:11pt}.theorem,.install-card{break-inside:avoid}.formula{overflow:visible;font-size:10pt}}
   </style>
   <script>
     window.MathJax = {
@@ -135,6 +143,7 @@
       <p class="eyebrow">A Lean 4 library</p>
       <h1 class="wordmark">STAT<span class="lib">LIB</span></h1>
       <p class="dek">Non-asymptotic mathematical statistics, from concentration inequalities to certified finite-sample learning guarantees.</p>
+      <div class="hero-actions"><a class="github-cta" href="https://github.com/Lean-MoDS/Statlib" target="_blank" rel="noopener noreferrer" aria-label="Open the Statlib repository on GitHub in a new tab"><span class="github-cta-copy"><span class="github-cta-kicker">GitHub repository</span><span class="github-cta-repo">Lean-MoDS / Statlib</span></span><span class="github-cta-arrow" aria-hidden="true">↗</span></a></div>
       <p class="abstract"><strong>Abstract.</strong> Statlib develops concentration of measure, metric entropy and chaining, Rademacher complexity and uniform laws, random matrix theory, and sharp least-squares guarantees as formal mathematics. Definitions elaborate, proofs close, and the complete development is checked by the Lean 4 kernel.</p>
       <div class="stats" aria-label="Library statistics"><div class="stat"><b>666</b><span>Theorems</span></div><div class="stat"><b>1,219</b><span>Lemmas</span></div><div class="stat"><b>352</b><span>Definitions</span></div><div class="stat"><b>89</b><span>Lean files</span></div><div class="stat"><b>64,695</b><span>Lines of Lean</span></div><div class="stat"><b>0</b><span>Sorries</span></div></div>
     </header>
