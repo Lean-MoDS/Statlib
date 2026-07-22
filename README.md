@@ -84,9 +84,9 @@ ownership rules, source attribution, complete-proof policy, and warning-free bui
 ## Authors, copyright, and provenance
 
 Statlib unifies material developed in the former SLT and FoML trees. Files retain their original
-copyright and author headers. See [AUTHORS.md](./AUTHORS.md) for the repository's alphabetized author
-list and its copyright, authorship, and co-authorship policy; the individual source headers remain
-authoritative for file-level attribution.
+copyright and author headers. See [AUTHORS.md](./AUTHORS.md) for the organizer and contributor lists
+and the repository's copyright, authorship, and co-authorship policy; the individual source headers
+remain authoritative for file-level attribution.
 
 ## License
 

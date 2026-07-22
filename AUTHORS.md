@@ -15,16 +15,30 @@ The two lines are related, but they do not make the same claim. An author listed
 line is not necessarily the copyright holder named in that file, and an aggregate repository author
 list must not be read as saying that every person authored every module.
 
-The repository authors are listed below in family-name alphabetical order:
+The [published Statlib website](https://lean-mods.github.io/Statlib/) identifies project authors in
+two roles. The order below follows the website.
 
-- Kazumi Kasaura
-- Jason D. Lee
+### Organizers
+
 - Fanghui Liu
-- Yuma Mizuno
-- Naoto Onda
+- Jason D. Lee
+- Weijie Su
+- Taiji Suzuki
+- Yuekai Sun
+- Sho Sonoda
+
+### Contributors
+
+- Yuanhe Zhang
 - Sho Sonoda
 - Kei Tsukamoto
-- Yuanhe Zhang
+- Kazumi Kasaura
+- Naoto Onda
+- Yuma Mizuno
+- Kevin Han Huang
+
+These roles describe project-level organization and contribution. Sho Sonoda appears in both roles,
+as on the published website. Neither role replaces file-level copyright or authorship notices.
 
 The header of each source file is the authoritative attribution for that file. Existing notices
 must be preserved when code is moved, renamed, or substantially reused. The repository-level
