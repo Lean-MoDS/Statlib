@@ -77,17 +77,18 @@ tag, or commit revision.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a change. New code must preserve the
-subject ownership rules, source attribution, complete-proof policy, and warning-free build.
+Read [CONTRIBUTING.md](./CONTRIBUTING.md) and the
+[Code of Conduct](./CODE_OF_CONDUCT.md) before opening a change. New code must preserve the subject
+ownership rules, source attribution, complete-proof policy, and warning-free build.
 
-## Provenance and attribution
+## Authors, copyright, and provenance
 
 Statlib unifies material developed in the former SLT and FoML trees. Files retain their original
-copyright and author headers. The Rademacher-complexity development credits Kei Tsukamoto, Kazumi
-Kasaura, Naoto Onda, Yuma Mizuno, and Sho Sonoda. The Gaussian Poincare limit infrastructure also
-uses a Levy-continuity development originating in the CLT project. See the individual source headers
-for authoritative attribution.
+copyright and author headers. See [AUTHORS.md](./AUTHORS.md) for the repository's alphabetized author
+list and its copyright, authorship, and co-authorship policy; the individual source headers remain
+authoritative for file-level attribution.
 
 ## License
 
-Statlib is released under the [Apache License 2.0](./LICENSE).
+Statlib is released under the [Apache License 2.0](./LICENSE). Copyright remains with the individual
+holders identified in the source files.
