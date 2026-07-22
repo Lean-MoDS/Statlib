@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/leanprover/lean4/releases/tag/v4.32.0"><img src="https://img.shields.io/badge/Lean-v4.32.0-blue?style=for-the-badge" alt="Lean v4.32.0"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey?style=for-the-badge" alt="Apache 2.0"></a>
+  <a href="https://lean-mods.github.io/Statlib/"><img src="https://img.shields.io/badge/Website-Statlib-2f855a?style=for-the-badge" alt="Statlib website"></a>
 </p>
 
 Statlib is a reusable Lean 4 library for probability, high-dimensional statistics, empirical
