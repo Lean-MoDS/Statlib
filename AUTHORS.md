@@ -22,6 +22,7 @@ two roles. The order below follows the website.
 
 - Fanghui Liu
 - Jason D. Lee
+- Peter Bartlett
 - Weijie Su
 - Aleksandar Mijatovic
 - Taiji Suzuki
